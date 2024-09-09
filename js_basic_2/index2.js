@@ -86,6 +86,8 @@ console.log(rectangleObj1);
 delete rectangleObj1.color;   // delete property
 console.log(rectangleObj1);  
 
+console.log(rectangleObj2);  
+
 
 
 
