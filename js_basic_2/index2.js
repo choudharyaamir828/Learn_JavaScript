@@ -16,21 +16,21 @@
 
     // let rectangle = {
     //  length:1,
-    //      breadth : 2,
+    //  breadth : 2,
 
-    //      draw: function(){
-    //          console.log('dorw');
-    //      }
+    //  draw: function(){
+
+    //     console.log('dorw');
+    //  }
 
     //  };
 
-
-// rectangle.draw();
-// console.log(rectangle.length);
-
+//     rectangle.draw();
+//     console.log(rectangle.length);
 
 
-                //create object using fectory  function
+
+            //create object using fectory  function
 
 // function createRectangle(len,bre){
 
@@ -38,13 +38,13 @@
 //      length:len,
 //      breadth : bre,
 
-//     //  draw: function(){
-//     //     console.log('dorw rectangle');
-//     //  }
+//  draw: function(){
+//     console.log('dorw rectangle');
+//  }
        
 //         // OR same
 
-//         drow(){
+//         drow() {
 //             console.log('drow rectangle');
 //         }
 
@@ -68,7 +68,7 @@
 //     this.length = len;
 //     this.breadth = bre;
 //     this.drow = function(){
-//         console.log("drowing");
+//         console.log("drowing something");
 //     }
 
 // }
@@ -80,6 +80,7 @@
 // console.log(rectangleObj1)
 // console.log(rectangleObj2)
 
+
 // rectangleObj1.color = "yellow";  // add property
 // console.log(rectangleObj1);
 
@@ -88,13 +89,36 @@
 
 // console.log(rectangleObj2);  
 
-calSum = function(){
-    let arr = [3,6,2,1,7,10];
-    let sum = 0;
-    for(let i =0;i<6;i++){
-        sum += arr[i];
-    }
-    return sum;
-}
 
-console.log("the sum is "+calSum());
+// Note:- primitive are copied by their value
+// References are copied by their address/reference
+
+// let a = {value:10};
+// let b= a;
+// a.value++;
+
+// console.log(a.value);
+// console.log(b.value);
+
+let rectangle = {
+    length:2,
+    breadth:4
+
+};
+
+// for-in loop (apply only on object in some case we can apply)
+// for(let key in rectangle){
+//     // keys are reflected through key variable
+//     // values are reflected throught rectangle[key]
+//     console.log(key,rectangle[key]);
+// }
+
+     // check property
+// if('color' in rectangle){
+//     console.log("present");
+// }
+// else{
+//     console.log("absent");
+// }
+
+
